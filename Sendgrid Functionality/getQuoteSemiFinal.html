@@ -2826,12 +2826,12 @@
             `
 		}
 	}
-        const sendOutEmail = async (emailData) => {
-            const docRef = await addDoc(collection(db, 'mail'), emailData)
-            console.log("Document written with ID: ", docRef.id);
+    const sendOutEmail = async (emailData) => {
+        const docRef = await addDoc(collection(db, 'mail'), emailData)
+        console.log("Document written with ID: ", docRef.id);
     }
-        sendOutEmail(email)
-        sendOutEmail(zaneEmail)
+    sendOutEmail(email)
+    sendOutEmail(zaneEmail)
 }
 </script>
 </body>
